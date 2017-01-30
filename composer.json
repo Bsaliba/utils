@@ -1,0 +1,35 @@
+{
+	"name": "bsaliba/utils",
+	"description": "Util library",
+	"type": "library",
+	"license": "MIT",
+	"homepage": "https://github.com/bsaliba/utils",
+	"keywords": [
+		"utils"
+	],
+	"authors": [
+		{
+			"name": "Bruno Saliba",
+			"email": "bruno.saliba@hotmail.com",
+			"homepage": "https://github.com/bsaliba/"
+		}
+	],
+	"require": {
+		"php": ">=5.3,<8.0-DEV",
+		"zendframework/zend-crypt": "^3.2",
+		"ramsey/uuid": "^3.5",
+		"zendframework/zend-http": "^2.5"
+	},
+	"require-dev": {
+	},
+	"autoload": {
+		"psr-4": {
+			"Utils\\": "src/Utils/"
+		}
+	},
+	"autoload-dev": {
+		"psr-0": {
+			"UtilsTest\\": "tests/Utils/"
+		}
+	}
+}
